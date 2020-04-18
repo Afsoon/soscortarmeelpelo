@@ -1,6 +1,7 @@
 import React from 'react'
 import Footer from '../components/Footer'
 import Header from '../components/Header'
+import Head from 'next/head'
 
 const CTA = () => (
   <div className="bg-gray-300">
@@ -30,6 +31,38 @@ const CTA = () => (
 const Book = () => {
   return (
     <>
+      <Head>
+        <title>SOS Pelatencasa - Pedir cita</title>
+        <meta
+          name="description"
+          content="Pida hoy su cita con su peluquero de confianza para que le asista en lo que desee. "
+        />
+        <meta name="robots" content="index, follow" />
+        <meta name="msapplication-TileColor" content="#00aba9" />
+        <meta name="theme-color" content="#ffffff" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="SOS Pelatencasa" />
+        <meta property="og:url" content="https://pelatencasa.now.sh/" />
+        <meta property="og:site_name" content="SOS Pelatencasa" />
+        <meta
+          property="og:image"
+          content="https://pelatencasa.now.sh/seo-image.png"
+        />
+        <meta property="og:image:width" content="484" />
+        <meta property="og:image:height" content="500" />
+        <meta
+          property="og:description"
+          content="Pida hoy su cita con su peluquero de confianza para que le asista en lo que desee. "
+        />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:url" content="https://pelatencasa.now.sh/" />
+        <meta name="twitter:title" content="SOS Pelatencasa" />
+        <meta
+          name="twitter:description"
+          content="Pida hoy su cita con su peluquero de confianza para que le asista en lo que desee. "
+        />
+      </Head>
       <Header />
       <CTA />
       <Footer />

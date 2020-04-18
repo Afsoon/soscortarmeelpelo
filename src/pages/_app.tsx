@@ -9,7 +9,7 @@ class MyApp extends App {
     return (
       <React.Fragment>
         <Head>
-          <title>SOS Pelatencasa</title>
+          <title>SOS Pelatencasa - Página de inicio</title>
           <meta
             name="description"
             content="Servicio online de asistencia a la peluquería con tu peluquero de confianza."
@@ -21,6 +21,7 @@ class MyApp extends App {
           <meta property="og:type" content="website" />
           <meta property="og:title" content="SOS Pelatencasa" />
           <meta property="og:url" content="https://pelatencasa.now.sh/" />
+          <meta property="og:site_name" content="SOS Pelatencasa" />
           <meta
             property="og:image"
             content="https://pelatencasa.now.sh/seo-image.png"
@@ -42,7 +43,7 @@ class MyApp extends App {
             name="twitter:image"
             content="https://pelatencasa.now.sh/seo-image.png"
           />
-
+          <link rel="canonical" href="https://pelatencasa.now.sh/" />
           <link
             rel="apple-touch-icon"
             sizes="180x180"
