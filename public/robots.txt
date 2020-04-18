@@ -1,4 +1,4 @@
-Sitemap: https://pelatencasa.now.sh/api/sitemap
+Sitemap: https://pelatencasa.now.sh/sitemap.xml
 
 User-agent: *
 Allow: /*
