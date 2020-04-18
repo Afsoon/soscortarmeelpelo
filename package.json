@@ -26,10 +26,7 @@
   "dependencies": {
     "next": "9.3.4",
     "react": "16.13.1",
-    "react-dom": "16.13.1",
-    "react-query": "^1.2.1",
-    "react-query-devtools": "^1.1.0",
-    "sitemap": "^6.1.1"
+    "react-dom": "16.13.1"
   },
   "devDependencies": {
     "@fullhuman/postcss-purgecss": "^2.1.0",
@@ -51,6 +48,7 @@
     "eslint-plugin-jest": "^23.8.2",
     "eslint-plugin-jsx-a11y": "^6.2.3",
     "eslint-plugin-react-hooks": "^3.0.0",
+    "globby": "^11.0.0",
     "jest": "^25.2.7",
     "postcss-preset-env": "^6.7.0",
     "tailwindcss": "^1.2.0",
