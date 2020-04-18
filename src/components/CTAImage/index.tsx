@@ -14,24 +14,25 @@ const CTAImage = () => (
       <div className="relative max-w-screen-xl mx-auto px-4 py-12 sm:px-6 lg:px-8 lg:py-16">
         <div className="md:ml-auto md:w-1/2 md:pl-10">
           <div className="text-base leading-6 font-semibold uppercase tracking-wider text-gray-300">
-            Apoya a tus peluqueros locales
+            Apoya a tu peluquero local
           </div>
           <h2 className="mt-2 text-white text-3xl leading-9 font-extrabold tracking-tight sm:text-4xl sm:leading-10">
             Estamos para ayudarte
           </h2>
           <p className="mt-3 text-lg leading-7 text-gray-300">
-            Pincha en el botón <span className="font-bold">Reservar</span>,
-            rellena tus datos, selecciona una hora y que tipo de ayuda quieres.
-            Te guiaremos durante todo el proceso para tener la apariencia que
-            deseas.
+            Haz clic en el botón{' '}
+            <span className="uppercase font-bold">Pedir Cita</span>, introduce
+            tus datos, selecciona una hora y dinos qué tipo de ayuda necesitas.
+            Te guiaremos durante todo el proceso para que obtengas el resultado
+            que deseas.
           </p>
           <div className="mt-8">
             <div className="inline-flex rounded-md shadow">
               <a
                 href="#"
-                className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-gray-900 bg-white hover:text-gray-600 focus:outline-none focus:shadow-outline transition duration-150 ease-in-out"
+                className="uppercase inline-flex items-center justify-center px-5 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-gray-900 bg-white hover:text-gray-600 focus:outline-none focus:shadow-outline transition duration-150 ease-in-out"
               >
-                Reservar
+                Pedir Cita
                 <svg
                   className="-mr-1 ml-3 h-5 w-5 text-gray-400"
                   fill="currentColor"

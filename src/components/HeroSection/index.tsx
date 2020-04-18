@@ -89,10 +89,10 @@ const HeroSection = () => {
             </div>
             <div className="hidden md:block md:ml-10">
               <a
-                href="#"
+                href="/book"
                 className="font-medium text-gray-500 hover:text-gray-900 focus:outline-none focus:text-gray-900 transition duration-150 ease-in-out"
               >
-                Reservar
+                Pedir Cita
               </a>
               <a
                 href="#"
@@ -139,7 +139,7 @@ const HeroSection = () => {
                 </div>
                 <div className="px-2 pt-2 pb-3">
                   <a
-                    href="#"
+                    href="/book"
                     className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50 focus:outline-none focus:text-gray-900 focus:bg-gray-50 transition duration-150 ease-in-out"
                   >
                     Reservar
@@ -160,17 +160,21 @@ const HeroSection = () => {
           <div className="lg:grid lg:grid-cols-12 lg:gap-8">
             <div className="sm:text-center md:max-w-2xl md:mx-auto lg:col-span-6 lg:text-left">
               <h2 className="mt-1 text-4xl tracking-tight leading-10 font-extrabold text-gray-900 sm:leading-none sm:text-6xl lg:text-5xl xl:text-6xl">
-                Sesiones para <br className="hidden md:inline" />
-                <span className="text-indigo-600">cortate el pelo</span>
+                Te guiamos en{' '}
+                <span className="text-indigo-600">tu corte de pelo</span> para
+                que te sigas{' '}
+                <span className="text-indigo-600">viendo bien</span>.
               </h2>
               <p className="mt-3 text-base text-gray-500 sm:mt-5 sm:text-xl lg:text-lg xl:text-xl">
-                Te juntamos con un peluquero o barbero a través de
-                videoconferencia para que cuidar tu pelo durantes estos tiempos
-                díficiles.
+                Te pondremos en contacto con tu peluquero o barbero a través de
+                videoconferencia para mejorar tu aspecto durante estos tiempos
+                difíciles y siempre que no puedas acudir a tu salón.
               </p>
               <p className="mt-3 text-base text-gray-500 sm:mt-5 sm:text-xl lg:text-lg xl:text-xl">
-                Ganamos todos, tú apoyas a tus peluqueros locales y tú te ves
-                bien.
+                Ganamos todos. Conseguirás un resultado lo más profesional
+                posible, mientras ayudas a mantener a flote el negocio de tu
+                peluquero de confianza. ¡No dudes en probar nuestros
+                videotutoriales en directo!
               </p>
             </div>
             <div className="mt-12 relative sm:max-w-lg sm:mx-auto lg:mt-0 lg:max-w-none lg:mx-0 lg:col-span-6 lg:flex lg:items-center">

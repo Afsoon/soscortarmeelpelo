@@ -9,7 +9,7 @@ class MyApp extends App {
     return (
       <React.Fragment>
         <Head>
-          <title>Pokebuilder</title>
+          <title>Pelatencasa</title>
           <link rel="stylesheet" href="https://rsms.me/inter/inter.css"></link>
           <meta name="viewport" content="width=device-width, initial-scale=1" />
         </Head>
