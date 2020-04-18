@@ -28,7 +28,8 @@
     "react": "16.13.1",
     "react-dom": "16.13.1",
     "react-query": "^1.2.1",
-    "react-query-devtools": "^1.1.0"
+    "react-query-devtools": "^1.1.0",
+    "sitemap": "^6.1.1"
   },
   "devDependencies": {
     "@fullhuman/postcss-purgecss": "^2.1.0",
