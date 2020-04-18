@@ -3,7 +3,12 @@ import React from 'react'
 const Footer = () => (
   <>
     <div className="mt-8 flex justify-center">
-      <a href="#" className="text-gray-400 hover:text-gray-500">
+      <a
+        href="https://www.facebook.com/BenaventePeluqueros"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="text-gray-400 hover:text-gray-500"
+      >
         <span className="sr-only">Facebook</span>
         <svg className="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
           <path
@@ -13,7 +18,12 @@ const Footer = () => (
           />
         </svg>
       </a>
-      <a href="#" className="ml-6 text-gray-400 hover:text-gray-500">
+      <a
+        href="https://www.instagram.com/benaventepeluqueros/"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="ml-6 text-gray-400 hover:text-gray-500"
+      >
         <span className="sr-only">Instagram</span>
         <svg className="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
           <path
@@ -26,7 +36,7 @@ const Footer = () => (
     </div>
     <div className="mt-8">
       <p className="text-center text-base leading-6 text-gray-400">
-        &copy; 2020 Workflow, Inc. All rights reserved.
+        &copy; 2020 Benavente Peluqueros. All rights reserved.
       </p>
     </div>
   </>
