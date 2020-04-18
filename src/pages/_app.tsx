@@ -14,10 +14,18 @@ class MyApp extends App {
             name="description"
             content="Servicio online de asistencia a la peluquería con tu peluquero de confianza."
           />
+          <meta name="apple-mobile-web-app-capable" content="yes" />
+          <meta
+            name="apple-mobile-web-app-status-bar-style"
+            content="black-translucent"
+          />
           <meta name="robots" content="index, follow" />
           <meta name="msapplication-TileColor" content="#00aba9" />
           <meta name="theme-color" content="#ffffff" />
-          <meta name="viewport" content="width=device-width, initial-scale=1" />
+          <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1, viewport-fit=cover"
+          />
           <meta property="og:type" content="website" />
           <meta property="og:title" content="SOS Pelatencasa" />
           <meta property="og:url" content="https://pelatencasa.now.sh/" />
