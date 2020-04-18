@@ -1,5 +1,4 @@
 import React, { useState } from 'react'
-import Container from '../Container'
 
 const HeroSection = () => {
   const [showDialog, setShowDialog] = useState(false)
@@ -114,11 +113,7 @@ const HeroSection = () => {
               <div className="rounded-lg bg-white shadow-xs overflow-hidden">
                 <div className="px-5 pt-4 flex items-center justify-between">
                   <div>
-                    <img
-                      className="h-8 w-auto"
-                      src="/img/logos/workflow-mark-on-white.svg"
-                      alt=""
-                    />
+                    <img className="h-8 w-auto" src="/logo.png" alt="" />
                   </div>
                   <div className="-mr-2">
                     <button
