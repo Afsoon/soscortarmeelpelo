@@ -29,7 +29,8 @@ const CTAImage = () => (
           <div className="mt-8">
             <div className="inline-flex rounded-md shadow">
               <a
-                href="#"
+                href="/book"
+                title="Pedir cita"
                 className="uppercase inline-flex items-center justify-center px-5 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-gray-900 bg-white hover:text-gray-600 focus:outline-none focus:shadow-outline transition duration-150 ease-in-out"
               >
                 Pedir Cita
