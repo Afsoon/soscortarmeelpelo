@@ -5,12 +5,9 @@ const Header = () => (
     <nav className="relative max-w-screen-xl mx-auto flex items-center justify-between px-4 sm:px-6">
       <div className="flex items-center flex-1">
         <div className="flex items-center justify-between w-full md:w-auto">
-          <a href="#">
-            <img
-              className="h-8 w-auto sm:h-10"
-              src="/img/logos/workflow-mark-on-white.svg"
-              alt=""
-            />
+          <a className="flex items-center" href="/">
+            <img className="h-8 w-auto sm:h-10" src="/logo.png" alt="" />
+            <h1 className="font-bold text-xl">SOS Pelatencasa</h1>
           </a>
         </div>
       </div>

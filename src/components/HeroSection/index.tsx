@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import Container from '../Container'
 
 const HeroSection = () => {
   const [showDialog, setShowDialog] = useState(false)
@@ -58,12 +59,9 @@ const HeroSection = () => {
         <nav className="relative max-w-screen-xl mx-auto flex items-center justify-between px-4 sm:px-6">
           <div className="flex items-center flex-1">
             <div className="flex items-center justify-between w-full md:w-auto">
-              <a href="#">
-                <img
-                  className="h-8 w-auto sm:h-10"
-                  src="/img/logos/workflow-mark-on-white.svg"
-                  alt=""
-                />
+              <a className="flex items-center" href="/">
+                <img className="h-8 w-auto sm:h-20" src="/logo.png" alt="" />
+                <h1 className="font-bold text-xl">SOS Pelatencasa</h1>
               </a>
               <div className="-mr-2 flex items-center md:hidden">
                 <button
@@ -92,7 +90,7 @@ const HeroSection = () => {
                 href="/book"
                 className="font-medium text-gray-500 hover:text-gray-900 focus:outline-none focus:text-gray-900 transition duration-150 ease-in-out"
               >
-                Pedir Cita
+                Pedir cita
               </a>
               <a
                 href="#"
@@ -142,7 +140,7 @@ const HeroSection = () => {
                     href="/book"
                     className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50 focus:outline-none focus:text-gray-900 focus:bg-gray-50 transition duration-150 ease-in-out"
                   >
-                    Reservar
+                    Pedir cita
                   </a>
                   <a
                     href="#"
