@@ -27,7 +27,10 @@ const Header: React.FunctionComponent<HeaderProps> = ({
               href="/"
               title="Ir a página de inicio"
             >
-              <img className="h-8 w-auto sm:h-10" src="/logo.png" alt="" />
+              <picture>
+                <source srcSet="/logo.webp" />
+                <img className="h-8 w-auto sm:h-10" src="/logo.png" alt="" />
+              </picture>
               <h1 className="font-bold text-xl">SOS Pelatencasa</h1>
             </a>
             <div className="-mr-2 flex items-center md:hidden">
@@ -81,7 +84,14 @@ const Header: React.FunctionComponent<HeaderProps> = ({
             <div className="rounded-lg bg-white shadow-xs overflow-hidden">
               <div className="px-5 pt-4 flex items-center justify-between">
                 <div>
-                  <img className="h-8 w-auto" src="/logo.png" alt="" />
+                  <picture>
+                    <source srcSet="/logo.webp" />
+                    <img
+                      className="h-8 w-auto sm:h-10"
+                      src="/logo.png"
+                      alt=""
+                    />
+                  </picture>
                 </div>
                 <div className="-mr-2">
                   <button
