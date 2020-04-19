@@ -83,7 +83,6 @@ class MyApp extends App {
           />
           <link rel="manifest" href="/site.webmanifest" />
           <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#000000" />
-          <link rel="stylesheet" href="https://rsms.me/inter/inter.css" />
         </Head>
         <Component {...pageProps} />
       </React.Fragment>
