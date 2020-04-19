@@ -195,7 +195,7 @@ const Form = ({ setShowCorrectMessage }) => {
               Acuerdo de RGPD. Doy mi consentimiento para que esta web almacene
               la información que envío y puedan responder a mi petición.
             </p>
-            {!acceptRGPD && clicked && (
+            {!acceptRGPD && (clicked || Object.keys(errors).length > 0) && (
               <p className="mt-2 text-sm text-red-600">
                 Es obligatorio aceptar el acuerdo de RGPD.
               </p>
