@@ -63,7 +63,7 @@ const Book = () => {
           content="Pida hoy su cita con su peluquero de confianza para que le asista en lo que desee. "
         />
       </Head>
-      <Header />
+      <Header showContact />
       <CTA />
       <Footer />
     </>

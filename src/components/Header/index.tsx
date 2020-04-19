@@ -1,6 +1,14 @@
 import React, { useState } from 'react'
 
-const Header = () => {
+interface HeaderProps {
+  showBook?: boolean
+  showContact?: boolean
+}
+
+const Header: React.FunctionComponent<HeaderProps> = ({
+  showBook,
+  showContact,
+}) => {
   const [showDialog, setShowDialog] = useState(false)
   const displayDialog = () => {
     setShowDialog(true)
@@ -46,13 +54,24 @@ const Header = () => {
             </div>
           </div>
           <div className="hidden md:block md:ml-10">
-            <a
-              href="#"
-              title="Enviar mensaje de contacto"
-              className="ml-10 font-medium text-gray-500 hover:text-gray-900 focus:outline-none focus:text-gray-900 transition duration-150 ease-in-out"
-            >
-              Contacto
-            </a>
+            {showBook && (
+              <a
+                href="/book"
+                title="Pedir cita"
+                className="ml-10 font-medium text-gray-500 hover:text-gray-900 focus:outline-none focus:text-gray-900 transition duration-150 ease-in-out"
+              >
+                Pedir cita
+              </a>
+            )}
+            {showContact && (
+              <a
+                href="#"
+                title="Enviar mensaje de contacto"
+                className="ml-10 font-medium text-gray-500 hover:text-gray-900 focus:outline-none focus:text-gray-900 transition duration-150 ease-in-out"
+              >
+                Contacto
+              </a>
+            )}
           </div>
         </div>
       </nav>
@@ -88,13 +107,24 @@ const Header = () => {
                 </div>
               </div>
               <div className="px-2 pt-2 pb-3">
-                <a
-                  href="#"
-                  title="Enviar mensaje de contacto"
-                  className="mt-1 block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50 focus:outline-none focus:text-gray-900 focus:bg-gray-50 transition duration-150 ease-in-out"
-                >
-                  Contacto
-                </a>
+                {showBook && (
+                  <a
+                    href="/book"
+                    title="Pedir cita"
+                    className="mt-1 block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50 focus:outline-none focus:text-gray-900 focus:bg-gray-50 transition duration-150 ease-in-out"
+                  >
+                    Pedir cita
+                  </a>
+                )}
+                {showContact && (
+                  <a
+                    href="/contact"
+                    title="Enviar mensaje de contacto"
+                    className="mt-1 block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50 focus:outline-none focus:text-gray-900 focus:bg-gray-50 transition duration-150 ease-in-out"
+                  >
+                    Contacto
+                  </a>
+                )}
               </div>
             </div>
           </div>
