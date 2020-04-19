@@ -101,12 +101,29 @@ const Textarea = ({
 const Form = ({ setShowCorrectMessage }) => {
   const [acceptRGPD, setAcceptRGPD] = useState(false)
   const [clicked, setClickedChecbox] = useState(false)
+  const [showRetry, setShowRetry] = useState(false)
   const { register, handleSubmit, errors } = useForm()
   const classNameBg = acceptRGPD ? 'bg-indigo-600' : 'bg-gray-200'
   const classNameTransition = acceptRGPD ? 'translate-x-5' : 'translate-x-0'
-  const onSubmit = (data) => {
+
+  const onSubmit = async (data) => {
     if (acceptRGPD) {
-      setShowCorrectMessage(true)
+      try {
+        const request = await fetch('/api/email', {
+          method: 'POST',
+          body: JSON.stringify(data),
+          headers: { 'Content-Type': 'application/json' },
+        })
+        console.log(request)
+
+        if (request.status === 204) {
+          setShowCorrectMessage(true)
+        } else {
+          setShowRetry(true)
+        }
+      } catch {
+        setShowRetry(true)
+      }
     } else {
       setClickedChecbox(true)
     }
@@ -213,6 +230,11 @@ const Form = ({ setShowCorrectMessage }) => {
             Enviar mensaje
           </button>
         </span>
+        {showRetry && (
+          <p className="mt-2 text-sm text-red-600">
+            Ha habido un error. Intentélo más tarde.
+          </p>
+        )}
       </div>
     </form>
   )
