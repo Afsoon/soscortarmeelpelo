@@ -228,6 +228,7 @@ const Contact = () => {
           name="twitter:description"
           content="Pongasé en contacto con su peluquero para consultar sobre los servicios que desee contratar."
         />
+        <link rel="canonical" href="https://pelatencasa.now.sh/contact" />
       </Head>
       <Header showBook />
       <Form />

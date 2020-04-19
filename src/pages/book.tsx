@@ -62,6 +62,7 @@ const Book = () => {
           name="twitter:description"
           content="Pida hoy su cita con su peluquero de confianza para que le asista en lo que desee. "
         />
+        <link rel="canonical" href="https://pelatencasa.now.sh/book" />
       </Head>
       <Header showContact />
       <CTA />
