@@ -1,6 +1,10 @@
 /* purgecss start ignore */
 @tailwind base;
 @tailwind components;
+
+#__next {
+  padding-bottom: env(safe-area-inset-bottom);
+}
 /* purgecss end ignore */
 
 @tailwind utilities;
@@ -16,8 +20,4 @@
 .notch {
   padding-left: env(safe-area-inset-left);
   padding-right: env(safe-area-inset-right);
-}
-
-#__next {
-  padding-bottom: env(safe-area-inset-bottom);
 }
