@@ -64,8 +64,12 @@ const HeroSection = () => {
                 title="Ir a página de inicio"
               >
                 <picture>
-                  <source srcSet="/logo.webp" />
-                  <img className="h-8 w-auto sm:h-10" src="/logo.png" alt="" />
+                  <source srcSet="/logo.webp" type="image/webp" />
+                  <img
+                    className="h-8 w-auto sm:h-10"
+                    src="/logo-optimized.png"
+                    alt=""
+                  />
                 </picture>
                 <h1 className="font-bold text-xl">SOS Pelatencasa</h1>
               </a>
@@ -117,10 +121,10 @@ const HeroSection = () => {
                 <div className="px-5 pt-4 flex items-center justify-between">
                   <div>
                     <picture>
-                      <source srcSet="/logo.webp" />
+                      <source srcSet="/logo.webp" type="image/webp" />
                       <img
                         className="h-8 w-auto sm:h-10"
-                        src="/logo.png"
+                        src="/logo-optimized.png"
                         alt=""
                       />
                     </picture>
@@ -236,11 +240,14 @@ const HeroSection = () => {
                   aria-label="Not complain to remove"
                   className="relative block w-full rounded-lg overflow-hidden focus:outline-none focus:shadow-outline"
                 >
-                  <img
-                    className="w-full"
-                    src="https://images.unsplash.com/photo-1556740758-90de374c12ad?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
-                    alt="Woman making a sale"
-                  />
+                  <picture>
+                    <source srcSet="/placeholder.webp" type="image/webp" />
+                    <img
+                      className="w-full"
+                      src="https://images.unsplash.com/photo-1556740758-90de374c12ad?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
+                      alt="Dependienta haciendo una venta"
+                    />
+                  </picture>
                   <div className="absolute inset-0 w-full h-full flex items-center justify-center">
                     <svg
                       className="h-20 w-20 text-indigo-500"

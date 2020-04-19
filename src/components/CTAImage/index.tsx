@@ -6,10 +6,10 @@ const CTAImage = () => (
     <Container>
       <div className="h-56 bg-indigo-600 sm:h-72 md:absolute md:left-0 md:h-full md:w-1/2">
         <picture>
-          <source srcSet="/cta-image.webp" />
+          <source srcSet="/cta-image.webp" type="image/webp" />
           <img
             className="w-full h-full object-cover"
-            src="/cta-image.png"
+            src="/cta-image.jpg"
             alt="Peluquero haciedo unas ondas a una clienta"
           />
         </picture>
