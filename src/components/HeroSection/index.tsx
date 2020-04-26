@@ -71,7 +71,7 @@ const HeroSection = () => {
                     alt=""
                   />
                 </picture>
-                <h1 className="font-bold text-xl">SOS Pelatencasa</h1>
+                <h1 className="font-bold text-xl">SOS Pelateencasa</h1>
               </a>
               <div className="-mr-2 flex items-center md:hidden">
                 <button
