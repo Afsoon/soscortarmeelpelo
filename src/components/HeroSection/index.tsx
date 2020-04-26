@@ -183,15 +183,14 @@ const HeroSection = () => {
                 <span className="text-indigo-600">viendo bien</span>.
               </h2>
               <p className="mt-3 text-base text-gray-500 sm:mt-5 sm:text-xl lg:text-lg xl:text-xl">
-                Te pondremos en contacto con tu peluquero o barbero a través de
-                videoconferencia para mejorar tu aspecto durante estos tiempos
-                difíciles y siempre que no puedas acudir a tu salón.
+                Te pondremos en contacto con un estilista experimentado a través
+                de videoconferencia para mejorar tu aspecto durante estos
+                tiempos difíciles.
               </p>
               <p className="mt-3 text-base text-gray-500 sm:mt-5 sm:text-xl lg:text-lg xl:text-xl">
-                Ganamos todos. Conseguirás un resultado lo más profesional
-                posible, mientras ayudas a mantener a flote el negocio de tu
-                peluquero de confianza. ¡No dudes en probar nuestros
-                videotutoriales en directo!
+                Conseguirás un resultado lo más profesional posible, mientras
+                ayudas a mantener a flote un negocio local. ¡No dudes en probar
+                nuestros videotutoriales en directo!
               </p>
             </div>
             <div className="mt-12 relative sm:max-w-lg sm:mx-auto lg:mt-0 lg:max-w-none lg:mx-0 lg:col-span-6 lg:flex lg:items-center">

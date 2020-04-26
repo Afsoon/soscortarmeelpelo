@@ -12,7 +12,7 @@ const Home = () => {
         <title>SOS Pelatencasa - Página de inicio</title>
         <meta
           name="description"
-          content="Servicio online de asistencia a la peluquería con tu peluquero de confianza."
+          content="Servicio online de asistencia a la peluquería con un estilista experimentado."
         />
         <meta name="apple-mobile-web-app-capable" content="yes" />
         <meta
@@ -38,14 +38,14 @@ const Home = () => {
         <meta property="og:image:height" content="500" />
         <meta
           property="og:description"
-          content="Servicio online de asistencia a la peluquería con tu peluquero de confianza."
+          content="Servicio online de asistencia a la peluquería con un estilista experimentado."
         />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:url" content="https://pelatencasa.now.sh/" />
         <meta name="twitter:title" content="SOS Pelatencasa" />
         <meta
           name="twitter:description"
-          content="Servicio online de asistencia a la peluquería con tu peluquero de confianza."
+          content="Servicio online de asistencia a la peluquería con un estilista experimentado."
         />
         <meta
           name="twitter:image"

@@ -35,7 +35,7 @@ const Book = () => {
         <title>SOS Pelatencasa - Pedir cita</title>
         <meta
           name="description"
-          content="Pida hoy su cita con su peluquero de confianza para que le asista en lo que desee. "
+          content="Pida hoy su cita con un estillista experimentado para que le asista en lo que desee. "
         />
         <meta name="robots" content="index, follow" />
         <meta name="msapplication-TileColor" content="#00aba9" />
@@ -53,14 +53,14 @@ const Book = () => {
         <meta property="og:image:height" content="500" />
         <meta
           property="og:description"
-          content="Pida hoy su cita con su peluquero de confianza para que le asista en lo que desee. "
+          content="Pida hoy su cita con un estillista experimentado para que le asista en lo que desee. "
         />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:url" content="https://pelatencasa.now.sh/" />
         <meta name="twitter:title" content="SOS Pelatencasa" />
         <meta
           name="twitter:description"
-          content="Pida hoy su cita con su peluquero de confianza para que le asista en lo que desee. "
+          content="Pida hoy su cita con un estillista experimentado para que le asista en lo que desee. "
         />
         <link rel="canonical" href="https://pelatencasa.now.sh/book" />
       </Head>

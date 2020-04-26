@@ -30,7 +30,12 @@ const Input = ({
         {labelValue}
       </label>
       <div className="mt-1 relative rounded-md shadow-sm">
-        <input name={htmlFor} className={className} ref={innerRef} />
+        <input
+          name={htmlFor}
+          id={htmlFor}
+          className={className}
+          ref={innerRef}
+        />
         {error && (
           <div className="absolute inset-y-0 right-0 pr-3 flex items-center pointer-events-none">
             <svg
@@ -76,7 +81,12 @@ const Textarea = ({
         {labelValue}
       </label>
       <div className="mt-1 relative rounded-md shadow-sm">
-        <textarea name={htmlFor} className={className} ref={innerRef} />
+        <textarea
+          name={htmlFor}
+          id={htmlFor}
+          className={className}
+          ref={innerRef}
+        />
         {error && (
           <div className="absolute inset-y-0 right-0 pr-3 flex items-center pointer-events-none">
             <svg
@@ -346,7 +356,7 @@ const Contact = () => {
         <title>SOS Pelatencasa - Enviar mensaje de contacto</title>
         <meta
           name="description"
-          content="Pongasé en contacto con su peluquero para consultar sobre los servicios que desee contratar."
+          content="Pongasé en contacto con un estilita para consultar sobre los servicios que desee contratar."
         />
         <meta name="robots" content="index, follow" />
         <meta name="msapplication-TileColor" content="#00aba9" />
@@ -364,14 +374,14 @@ const Contact = () => {
         <meta property="og:image:height" content="500" />
         <meta
           property="og:description"
-          content="Pongasé en contacto con su peluquero para consultar sobre los servicios que desee contratar."
+          content="Pongasé en contacto con un estilita para consultar sobre los servicios que desee contratar."
         />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:url" content="https://pelatencasa.now.sh/" />
         <meta name="twitter:title" content="SOS Pelatencasa" />
         <meta
           name="twitter:description"
-          content="Pongasé en contacto con su peluquero para consultar sobre los servicios que desee contratar."
+          content="Pongasé en contacto con un estilita para consultar sobre los servicios que desee contratar."
         />
         <link rel="canonical" href="https://pelatencasa.now.sh/contact" />
       </Head>
