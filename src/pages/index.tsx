@@ -1,9 +1,10 @@
 import React from 'react'
+import Head from 'next/head'
 import Footer from '../components/Footer'
 import CTAImage from '../components/CTAImage'
 import HowWorks from '../components/HowWorks'
 import HeroSection from '../components/HeroSection'
-import Head from 'next/head'
+import TeamSection from '../components/TeamSection'
 
 const Home = () => {
   return (
@@ -54,6 +55,7 @@ const Home = () => {
         <link rel="canonical" href="https://pelatencasa.now.sh/" />
       </Head>
       <HeroSection />
+      <TeamSection />
       <HowWorks />
       <CTAImage />
       <Footer />
