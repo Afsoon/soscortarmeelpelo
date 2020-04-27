@@ -19,7 +19,7 @@ const globby = require('globby');
                     const route = path === '/index' ? '' : path;
                     return `
                         <url>
-                            <loc>${`https://pelatencasa.now.sh${route}`}</loc>
+                            <loc>${`https://soscortarmeelpelo.com${route}`}</loc>
                             <priority>${route === '' ? '1.00' : '0.80'}</priority>
                             <changefreq>daily</changefreq>
                         </url>

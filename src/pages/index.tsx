@@ -13,7 +13,7 @@ const Home = () => {
         <title>SOS Pelatencasa - Página de inicio</title>
         <meta
           name="description"
-          content="Servicio online de asistencia a la peluquería con un estilista experimentado."
+          content="Servicio online de asistencia a la peluquería con un estilista experimentado en tú casa  ."
         />
         <meta name="apple-mobile-web-app-capable" content="yes" />
         <meta
@@ -29,30 +29,30 @@ const Home = () => {
         />
         <meta property="og:type" content="website" />
         <meta property="og:title" content="SOS Pelatencasa" />
-        <meta property="og:url" content="https://pelatencasa.now.sh/" />
+        <meta property="og:url" content="https://soscortarmeelpelo.com/" />
         <meta property="og:site_name" content="SOS Pelatencasa" />
         <meta
           property="og:image"
-          content="https://pelatencasa.now.sh/seo-image.png"
+          content="https://soscortarmeelpelo.com/seo-image.png"
         />
         <meta property="og:image:width" content="484" />
         <meta property="og:image:height" content="500" />
         <meta
           property="og:description"
-          content="Servicio online de asistencia a la peluquería con un estilista experimentado."
+          content="Servicio online de asistencia a la peluquería con un estilista experimentado en tú casa  ."
         />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:url" content="https://pelatencasa.now.sh/" />
+        <meta name="twitter:url" content="https://soscortarmeelpelo.com/" />
         <meta name="twitter:title" content="SOS Pelatencasa" />
         <meta
           name="twitter:description"
-          content="Servicio online de asistencia a la peluquería con un estilista experimentado."
+          content="Servicio online de asistencia a la peluquería con un estilista experimentado en tú casa  ."
         />
         <meta
           name="twitter:image"
-          content="https://pelatencasa.now.sh/seo-image.png"
+          content="https://soscortarmeelpelo.com/seo-image.png"
         />
-        <link rel="canonical" href="https://pelatencasa.now.sh/" />
+        <link rel="canonical" href="https://soscortarmeelpelo.com/" />
       </Head>
       <HeroSection />
       <TeamSection />

@@ -43,11 +43,11 @@ const Book = () => {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta property="og:type" content="website" />
         <meta property="og:title" content="SOS Pelatencasa" />
-        <meta property="og:url" content="https://pelatencasa.now.sh/" />
+        <meta property="og:url" content="https://soscortarmeelpelo.com/" />
         <meta property="og:site_name" content="SOS Pelatencasa" />
         <meta
           property="og:image"
-          content="https://pelatencasa.now.sh/seo-image.png"
+          content="https://soscortarmeelpelo.com/seo-image.png"
         />
         <meta property="og:image:width" content="484" />
         <meta property="og:image:height" content="500" />
@@ -56,13 +56,13 @@ const Book = () => {
           content="Pida hoy su cita con un estillista experimentado para que le asista en lo que desee. "
         />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:url" content="https://pelatencasa.now.sh/" />
+        <meta name="twitter:url" content="https://soscortarmeelpelo.com/" />
         <meta name="twitter:title" content="SOS Pelatencasa" />
         <meta
           name="twitter:description"
           content="Pida hoy su cita con un estillista experimentado para que le asista en lo que desee. "
         />
-        <link rel="canonical" href="https://pelatencasa.now.sh/book" />
+        <link rel="canonical" href="https://soscortarmeelpelo.com/book" />
       </Head>
       <Header showContact />
       <CTA />
