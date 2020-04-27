@@ -11,11 +11,13 @@ const Input = ({
   innerRef,
   labelValue,
   error,
+  required,
 }: {
   htmlFor: string
   innerRef: any
   labelValue: string
   error?: any
+  required?: boolean
 }) => {
   const className = error
     ? 'form-input block w-full pr-10 py-3 px-4 border-red-300 text-red-900 placeholder-red-300 focus:border-red-300 focus:shadow-outline-red sm:text-sm sm:leading-5'
@@ -28,6 +30,7 @@ const Input = ({
         className="block text-sm font-medium leading-5 text-gray-700"
       >
         {labelValue}
+        {required && <span className="ml-1 text-sm text-red-700">*</span>}
       </label>
       <div className="mt-1 relative rounded-md shadow-sm">
         <input
@@ -62,11 +65,13 @@ const Textarea = ({
   innerRef,
   labelValue,
   error,
+  required,
 }: {
   htmlFor: string
   innerRef: any
   labelValue: string
   error?: any
+  required?: boolean
 }) => {
   const className = error
     ? 'form-input block w-full pr-10 py-3 px-4 border-red-300 text-red-900 placeholder-red-300 focus:border-red-300 focus:shadow-outline-red sm:text-sm sm:leading-5'
@@ -79,6 +84,7 @@ const Textarea = ({
         className="block text-sm font-medium leading-5 text-gray-700"
       >
         {labelValue}
+        {required && <span className="ml-1 text-sm text-red-700">*</span>}
       </label>
       <div className="mt-1 relative rounded-md shadow-sm">
         <textarea
@@ -160,6 +166,7 @@ const Form = ({ setShowCorrectMessage }) => {
             min: { value: 1, message: 'El nombre es obligatorio.' },
           })}
           error={errors.first_name}
+          required
         />
       </div>
       <div>
@@ -185,6 +192,7 @@ const Form = ({ setShowCorrectMessage }) => {
             },
           })}
           error={errors.email}
+          required
         />
       </div>
       <div className="sm:col-span-2">
@@ -199,6 +207,7 @@ const Form = ({ setShowCorrectMessage }) => {
             min: { value: 1, message: 'El mensaje es obligatorio.' },
           })}
           error={errors.message}
+          required
         />
       </div>
       <div className="sm:col-span-2">
@@ -219,8 +228,9 @@ const Form = ({ setShowCorrectMessage }) => {
           </div>
           <div className="ml-3">
             <p className="text-base leading-6 text-gray-500">
-              Acuerdo de RGPD. Doy mi consentimiento para que esta web almacene
-              la información que envío y puedan responder a mi petición.
+              <span className="text-sm text-red-700">*</span> Acuerdo de RGPD.
+              Doy mi consentimiento para que esta web almacene la información
+              que envío y puedan responder a mi petición.
             </p>
             {!acceptRGPD && (clicked || Object.keys(errors).length > 0) && (
               <p className="mt-2 text-sm text-red-600">
