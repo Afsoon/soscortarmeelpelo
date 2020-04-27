@@ -7,7 +7,9 @@ export default async function email(req: NextApiRequest, res: NextApiResponse) {
     const request = {
       name: `${body.first_name}${body.lastName ? ' ' + body.lastName : ''}`,
       email: body.email,
-      subject: 'Consulta de peluquería.',
+      subject: `Consulta de peluquería de ${body.first_name}${
+        body.lastName ? ' ' + body.lastName : ''
+      }.`,
       message: body.message,
       replyTo: '@',
       accessKey: 'c87812f0-93ac-4d02-9d67-bf72c3655852',
