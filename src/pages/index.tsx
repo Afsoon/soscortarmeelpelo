@@ -10,7 +10,7 @@ const Home = () => {
   return (
     <>
       <Head>
-        <title>SOS Pelatencasa - Página de inicio</title>
+        <title>SOS Cortarme el pelo - Página de inicio</title>
         <meta
           name="description"
           content="Servicio online de asistencia a la peluquería con un estilista experimentado en tú casa  ."
@@ -28,9 +28,9 @@ const Home = () => {
           content="width=device-width, initial-scale=1, viewport-fit=cover"
         />
         <meta property="og:type" content="website" />
-        <meta property="og:title" content="SOS Pelatencasa" />
+        <meta property="og:title" content="SOS Cortarme el pelo" />
         <meta property="og:url" content="https://soscortarmeelpelo.com/" />
-        <meta property="og:site_name" content="SOS Pelatencasa" />
+        <meta property="og:site_name" content="SOS Cortarme el pelo" />
         <meta
           property="og:image"
           content="https://soscortarmeelpelo.com/seo-image.png"
@@ -43,7 +43,7 @@ const Home = () => {
         />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:url" content="https://soscortarmeelpelo.com/" />
-        <meta name="twitter:title" content="SOS Pelatencasa" />
+        <meta name="twitter:title" content="SOS Cortarme el pelo" />
         <meta
           name="twitter:description"
           content="Servicio online de asistencia a la peluquería con un estilista experimentado en tú casa  ."

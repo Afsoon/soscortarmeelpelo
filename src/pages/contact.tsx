@@ -363,7 +363,7 @@ const Contact = () => {
   return (
     <>
       <Head>
-        <title>SOS Pelatencasa - Enviar mensaje de contacto</title>
+        <title>SOS Cortarme el pelo - Enviar mensaje de contacto</title>
         <meta
           name="description"
           content="Pongasé en contacto con un estilita para consultar sobre los servicios que desee contratar."
@@ -373,9 +373,9 @@ const Contact = () => {
         <meta name="theme-color" content="#ffffff" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta property="og:type" content="website" />
-        <meta property="og:title" content="SOS Pelatencasa" />
+        <meta property="og:title" content="SOS Cortarme el pelo" />
         <meta property="og:url" content="https://soscortarmeelpelo.com/" />
-        <meta property="og:site_name" content="SOS Pelatencasa" />
+        <meta property="og:site_name" content="SOS Cortarme el pelo" />
         <meta
           property="og:image"
           content="https://soscortarmeelpelo.com/seo-image.png"
@@ -388,7 +388,7 @@ const Contact = () => {
         />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:url" content="https://soscortarmeelpelo.com/" />
-        <meta name="twitter:title" content="SOS Pelatencasa" />
+        <meta name="twitter:title" content="SOS Cortarme el pelo" />
         <meta
           name="twitter:description"
           content="Pongasé en contacto con un estilita para consultar sobre los servicios que desee contratar."
