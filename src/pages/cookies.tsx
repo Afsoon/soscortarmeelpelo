@@ -96,10 +96,10 @@ const Content = () => (
 export const Cookies = () => (
   <>
     <Head>
-      <title>SOS Cortarme el pelo - Enviar mensaje de contacto</title>
+      <title>SOS Cortarme el pelo - Politica de Cookies</title>
       <meta
         name="description"
-        content="Pongasé en contacto con un estilita para consultar sobre los servicios que desee contratar."
+        content="Página donde se muestra la política cookies y cambiar el consetimiento del usuario."
       />
       <meta name="robots" content="index, follow" />
       <meta name="msapplication-TileColor" content="#00aba9" />
@@ -117,14 +117,14 @@ export const Cookies = () => (
       <meta property="og:image:height" content="500" />
       <meta
         property="og:description"
-        content="Pongasé en contacto con un estilita para consultar sobre los servicios que desee contratar."
+        content="Página donde se muestra la política cookies y cambiar el consetimiento del usuario."
       />
       <meta name="twitter:card" content="summary_large_image" />
       <meta name="twitter:url" content="https://soscortarmeelpelo.com/" />
       <meta name="twitter:title" content="SOS Cortarme el pelo" />
       <meta
         name="twitter:description"
-        content="Pongasé en contacto con un estilita para consultar sobre los servicios que desee contratar."
+        content="Página donde se muestra la política cookies y cambiar el consetimiento del usuario."
       />
       <link rel="canonical" href="https://soscortarmeelpelo.com/contact" />
     </Head>
