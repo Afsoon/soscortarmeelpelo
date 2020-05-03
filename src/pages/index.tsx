@@ -5,6 +5,7 @@ import CTAImage from '../components/CTAImage'
 import HowWorks from '../components/HowWorks'
 import HeroSection from '../components/HeroSection'
 import TeamSection from '../components/TeamSection'
+import CookieBanner from '../components/CookieBanner'
 
 const Home = () => {
   return (
@@ -59,6 +60,7 @@ const Home = () => {
       <HowWorks />
       <CTAImage />
       <Footer />
+      <CookieBanner />
     </>
   )
 }
