@@ -79,7 +79,7 @@ const Content = () => (
           className="mb-4 w-full inline-flex items-center justify-center px-6 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-500 focus:outline-none focus:border-indigo-700 focus:shadow-outline-indigo active:bg-indigo-700 transition ease-in-out duration-150"
         >
           <a href="javascript: Cookiebot.renew()">
-            Renovar o cambiar tu consetimiento de cookies.
+            Renovar o cambiar su consetimiento de cookies.
           </a>
         </button>
         <script
@@ -126,7 +126,7 @@ export const Cookies = () => (
         name="twitter:description"
         content="Página donde se muestra la política cookies y cambiar el consetimiento del usuario."
       />
-      <link rel="canonical" href="https://soscortarmeelpelo.com/contact" />
+      <link rel="canonical" href="https://soscortarmeelpelo.com/cookies" />
     </Head>
     <Header />
     <Content />
