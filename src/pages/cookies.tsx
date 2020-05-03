@@ -71,9 +71,17 @@ const Content = () => (
         />
       </svg>
       <div className="text-center">
-        <h2 className="text-3xl leading-9 font-extrabold tracking-tight text-gray-900 sm:text-4xl sm:leading-10">
+        <h2 className="text-3xl leading-9 font-extrabold tracking-tight text-gray-900 sm:text-4xl sm:leading-10 mb-4">
           Politica de Cookies
         </h2>
+        <button
+          type="button"
+          className="mb-4 w-full inline-flex items-center justify-center px-6 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-500 focus:outline-none focus:border-indigo-700 focus:shadow-outline-indigo active:bg-indigo-700 transition ease-in-out duration-150"
+        >
+          <a href="javascript: Cookiebot.renew()">
+            Renovar o cambiar tu consetimiento de cookies.
+          </a>
+        </button>
         <script
           id="CookieDeclaration"
           src="https://consent.cookiebot.com/c546d2b6-fb9d-451e-af23-9314c0119192/cd.js"
