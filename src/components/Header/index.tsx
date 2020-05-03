@@ -57,24 +57,27 @@ const Header: React.FunctionComponent<HeaderProps> = ({
             </div>
           </div>
           <div className="hidden md:block md:ml-10">
-            {showBook && (
-              <a
-                href="/book"
-                title="Pedir cita"
-                className="ml-10 font-medium text-gray-500 hover:text-gray-900 focus:outline-none focus:text-gray-900 transition duration-150 ease-in-out"
-              >
-                Pedir cita
-              </a>
-            )}
-            {showContact && (
-              <a
-                href="/contact"
-                title="Enviar mensaje de contacto"
-                className="ml-10 font-medium text-gray-500 hover:text-gray-900 focus:outline-none focus:text-gray-900 transition duration-150 ease-in-out"
-              >
-                Contacto
-              </a>
-            )}
+            <a
+              href="/book"
+              title="Pedir cita"
+              className="ml-10 font-medium text-gray-500 hover:text-gray-900 focus:outline-none focus:text-gray-900 transition duration-150 ease-in-out"
+            >
+              Pedir cita
+            </a>
+            <a
+              href="/contact"
+              title="Enviar mensaje de contacto"
+              className="ml-10 font-medium text-gray-500 hover:text-gray-900 focus:outline-none focus:text-gray-900 transition duration-150 ease-in-out"
+            >
+              Contacto
+            </a>
+            <a
+              href="/cookies"
+              title="Ver políticas de cookies de la web"
+              className="ml-10 font-medium text-gray-500 hover:text-gray-900 focus:outline-none focus:text-gray-900 transition duration-150 ease-in-out"
+            >
+              Política de Cookies
+            </a>
           </div>
         </div>
       </nav>
@@ -117,24 +120,27 @@ const Header: React.FunctionComponent<HeaderProps> = ({
                 </div>
               </div>
               <div className="px-2 pt-2 pb-3">
-                {showBook && (
-                  <a
-                    href="/book"
-                    title="Pedir cita"
-                    className="mt-1 block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50 focus:outline-none focus:text-gray-900 focus:bg-gray-50 transition duration-150 ease-in-out"
-                  >
-                    Pedir cita
-                  </a>
-                )}
-                {showContact && (
-                  <a
-                    href="/contact"
-                    title="Enviar mensaje de contacto"
-                    className="mt-1 block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50 focus:outline-none focus:text-gray-900 focus:bg-gray-50 transition duration-150 ease-in-out"
-                  >
-                    Contacto
-                  </a>
-                )}
+                <a
+                  href="/book"
+                  title="Pedir cita"
+                  className="mt-1 block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50 focus:outline-none focus:text-gray-900 focus:bg-gray-50 transition duration-150 ease-in-out"
+                >
+                  Pedir cita
+                </a>
+                <a
+                  href="/contact"
+                  title="Enviar mensaje de contacto"
+                  className="mt-1 block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50 focus:outline-none focus:text-gray-900 focus:bg-gray-50 transition duration-150 ease-in-out"
+                >
+                  Contacto
+                </a>
+                <a
+                  href="/cookies"
+                  title="Ver políticas de cookies de la web"
+                  className="mt-1 block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50 focus:outline-none focus:text-gray-900 focus:bg-gray-50 transition duration-150 ease-in-out"
+                >
+                  Política de Cookies
+                </a>
               </div>
             </div>
           </div>
