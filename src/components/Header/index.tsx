@@ -1,14 +1,6 @@
 import React, { useState } from 'react'
 
-interface HeaderProps {
-  showBook?: boolean
-  showContact?: boolean
-}
-
-const Header: React.FunctionComponent<HeaderProps> = ({
-  showBook,
-  showContact,
-}) => {
+const Header = () => {
   const [showDialog, setShowDialog] = useState(false)
   const displayDialog = () => {
     setShowDialog(true)

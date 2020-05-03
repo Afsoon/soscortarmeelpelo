@@ -2,7 +2,6 @@ import React from 'react'
 import Footer from '../components/Footer'
 import Header from '../components/Header'
 import Head from 'next/head'
-import CookieBanner from '../components/CookieBanner'
 
 const CTA = () => (
   <div className="bg-gray-300">
@@ -65,10 +64,9 @@ const Book = () => {
         />
         <link rel="canonical" href="https://soscortarmeelpelo.com/book" />
       </Head>
-      <Header showContact />
+      <Header />
       <CTA />
       <Footer />
-      <CookieBanner />
     </>
   )
 }
